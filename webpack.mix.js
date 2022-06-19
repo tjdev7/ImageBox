@@ -1,5 +1,5 @@
 mix.webpackConfig({
-    stats: {
-        children: true,
-    },
+  stats: {
+    children: true,
+  },
 });

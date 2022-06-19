@@ -1,21 +1,24 @@
 {
   "name": "pictosplash",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Image searcher app created in React. Uses the Unsplash API to render images",
   "main": "index.js",
+  "homepage": "https://tjdev7.github.io/PictoSplash/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "start": "webpack serve",
+    "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
     "cleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix&& yarn audit",
     "predeploy": "npm run build",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build",
+    "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
+    "fullpr": "git add .&&git commit&&git:wq push&&git merge"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Toughee/PictoSplash.git"
+    "url": "git+https://github.com/tjdev7/PictoSplash.git"
   },
   "keywords": [
     "Images",
@@ -30,31 +33,55 @@
   "author": "Tjdev7",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Toughee/PictoSplash/issues"
+    "url": "https://github.com/tjdev7/PictoSplash/issues"
   },
-  "homepage": "https://toughee.github.io/MyLibbb/",
   "devDependencies": {
-    "@babel/core": "7.18.2",
-    "@babel/node": "7.17.10",
+    "@babel/core": "7.18.5",
+    "@babel/node": "7.18.5",
     "@babel/plugin-proposal-class-properties": "7.17.12",
     "@babel/preset-env": "7.18.2",
     "@babel/preset-react": "7.17.12",
+    "@testing-library/react": "^13.3.0",
     "babel-loader": "8.2.5",
     "css-loader": "6.7.1",
+    "cypress": "^10.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-app": "^7.0.1",
     "file-loader": "6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "5.5.0",
     "image-webpack-loader": "8.1.0",
     "node-sass": "7.0.1",
     "path": "0.12.7",
     "sass-loader": "13.0.0",
     "style-loader": "3.3.1",
-    "typescript": "4.7.3",
+    "typescript": "4.7.4",
     "webpack": "5.73.0",
-    "webpack-cli": "4.9.2",
-    "webpack-dev-server": "4.9.1"
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.2"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "@babel/eslint-parser": "^7.18.2",
+    "axios": "^0.27.2",
+    "gh": "^2.8.9",
+    "nodemon": "^2.0.16",
+    "npm-upgrade": "^3.1.0",
+    "pages": "^0.0.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

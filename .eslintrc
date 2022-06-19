@@ -1,13 +1,23 @@
 {
-    "parser": "babel-eslint",
-    "extends": "react",
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "react",
+    "prettier"
+
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
     }
-  }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+}
