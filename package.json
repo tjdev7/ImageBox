@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Image searcher app created in React. Uses the Unsplash API to render images",
   "main": "index.js",
+  "homepage": "https://tjdev7.github.io/PictoSplash/",
   "scripts": {
     "webpack": "webpack",
     "start": "react-scripts start",
@@ -34,13 +35,13 @@
   "bugs": {
     "url": "https://github.com/tjdev7/PictoSplash/issues"
   },
-  "homepage": "https://tjdev7.github.io/PictoSplash/",
   "devDependencies": {
     "@babel/core": "7.18.5",
     "@babel/node": "7.18.5",
     "@babel/plugin-proposal-class-properties": "7.17.12",
     "@babel/preset-env": "7.18.2",
     "@babel/preset-react": "7.17.12",
+    "@testing-library/react": "^13.3.0",
     "babel-loader": "8.2.5",
     "css-loader": "6.7.1",
     "cypress": "^10.1.0",
