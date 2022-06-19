@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PictoSplash/static/css/main.db486111.css",
+    "main.js": "/PictoSplash/static/js/main.e8ab14d5.js",
+    "index.html": "/PictoSplash/index.html",
+    "main.db486111.css.map": "/PictoSplash/static/css/main.db486111.css.map",
+    "main.e8ab14d5.js.map": "/PictoSplash/static/js/main.e8ab14d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db486111.css",
+    "static/js/main.e8ab14d5.js"
+  ]
+}
