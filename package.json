@@ -4,16 +4,16 @@
   "description": "Image searcher app created in React. Uses the Unsplash API to render images",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "react-scripts test",
     "cleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix&& yarn audit",
     "predeploy": "npm run build",
     "deploy": "npm run build&&gh-pages -d build",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
-    "fullpr": "git add .&&git commit&&git push&&git merge"
+    "fullpr": "git add .&&git commit&&git:wq push&&git merge"
   },
   "repository": {
     "type": "git",
