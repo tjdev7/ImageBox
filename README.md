@@ -30,3 +30,5 @@ Image search platform created in React. Uses the Unsplash API to search for pict
 ### Future app goals:
 
 - [ ] Complete Unsplash picture API intergration 
+- [ ] Make all UI components align responsively to any device (Desktop, smart phones, tablets)
+- Resolve package 

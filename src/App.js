@@ -1,5 +1,6 @@
-import React from "react";
-import "./App.css";
+import React from 'react'
+import './App.css'
+import SearchBar from './components/SearchBar'
 
 function App() {
     return (
@@ -7,9 +8,9 @@ function App() {
             <header className="App-header">
                 <h1 className="app-logo">PictoSplash</h1>
             </header>
-            <input className="SearchBar" placeholder="Search for new pictures here" />
+            <SearchBar />
         </div>
-    );
+    )
 }
 
-export default App;
+export default App
