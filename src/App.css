@@ -24,7 +24,7 @@
 
 body {
     color: rgb(0, 0, 0);
-    background-color: rgba(253, 187, 45, 0.27074579831932777);
+    background-color: #d0fcf7;
     /* background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 0.5872724089635855) 0%, rgba(253, 187, 45, 0.27074579831932777) 100%) no-repeat; */
     height: 100%;
@@ -53,9 +53,11 @@ img,
 }
 
 .app-logo {
-    color: rgb(0, 0, 0);
-    font-size: 5.5rem;
+    color: #fffcfc;
+    font-size: 7rem;
     margin: 0.7rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-family: 'Pacifico', cursive;
     justify-content: center;
 }
