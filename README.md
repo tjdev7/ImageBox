@@ -9,6 +9,10 @@ Image search platform created in React. Uses the Unsplash API to search for pict
 2. Run `npm install` in your terminal to install all app node modules, yarn packages and dependencies
 3. Run `yarn start` in your terminal to run app on http://localhost:3000/
 
+Resources used: 
+
+- Unsplash's API for pictures
+
 ## Testing tools used for app:
 
 -   React Testing library and Jest for testing components
@@ -18,8 +22,9 @@ Image search platform created in React. Uses the Unsplash API to search for pict
 ### Completed app tasks:
 
 - [x] Update UI design for app
+- [x] Complete Unsplash picture API intergration 
+- [x] Make all UI components align responsively to any device (Desktop, smart phones, tablets)
 
-### Future app goals:
+### Future app goals
 
-- [ ] Complete Unsplash picture API intergration 
-- [ ] Make all UI components align responsively to any device (Desktop, smart phones, tablets)
+- [ ] Add a preloader svg to the search engine app

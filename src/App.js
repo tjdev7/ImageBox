@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1 className="app-logo">PictoSplash</h1>
+                <h1 className="appTitle">PictoSplash</h1>
             </header>
             <SearchBar />
         </div>
