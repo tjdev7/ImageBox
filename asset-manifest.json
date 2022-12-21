@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PictoSplash/static/css/main.03ec079c.css",
-    "main.js": "/PictoSplash/static/js/main.21216613.js",
-    "index.html": "/PictoSplash/index.html",
-    "main.03ec079c.css.map": "/PictoSplash/static/css/main.03ec079c.css.map",
-    "main.21216613.js.map": "/PictoSplash/static/js/main.21216613.js.map"
+    "main.css": "/ImageBox/static/css/main.4ed44f9a.css",
+    "main.js": "/ImageBox/static/js/main.0936ada7.js",
+    "index.html": "/ImageBox/index.html",
+    "main.4ed44f9a.css.map": "/ImageBox/static/css/main.4ed44f9a.css.map",
+    "main.0936ada7.js.map": "/ImageBox/static/js/main.0936ada7.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ec079c.css",
-    "static/js/main.21216613.js"
+    "static/css/main.4ed44f9a.css",
+    "static/js/main.0936ada7.js"
   ]
 }
