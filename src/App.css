@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .App {
     text-align: center;
+}
+
+header {
+    padding: 0.8rem;
+    background-color: #7fffd4;
+    border-bottom: 5px solid #242424;
+    /* padding: 1rem 2rem 4.5rem 2rem; */
 }
 
 /* .menuItem {
@@ -53,11 +61,13 @@ body {
 } */
 
 .appTitle {
-    color: #7fffd4;
-    font-size: 5rem;
+    color: #ffffff;
+    font-size: 4rem;
     margin: 0.7rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Press Start 2P', cursive;
     justify-content: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 
 /*
@@ -83,13 +93,13 @@ body {
 .SearchResult {
     /* display: flex;
     flex-flow: column; */
-    margin: 4rem auto;
+    margin: 2rem auto;
     column-count: 3;
 }
 
 img {
     flex-direction: row;
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
 /* .ImgStyle {
@@ -97,10 +107,10 @@ img {
 } */
 
 .SourceStyle {
-    background-color: aquamarine;
-    margin: 1rem 7rem;
-    padding: 0rem 4rem;
-    font-size: 2rem;
+    /* background-color: aquamarine; */
+    margin: 1rem 1rem;
+    padding: 0rem 1rem;
+    font-size: 1rem;
 }
 
 ul,
@@ -109,7 +119,7 @@ li {
 }
 
 @media screen and (max-width: 600px) {
-    .app-logo {
+    .preloader {
         color: rgb(0, 0, 0);
         font-size: 4rem;
         margin: 0.7rem;

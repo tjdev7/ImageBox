@@ -5,11 +5,11 @@ import InfiniteScroll from 'react-infinite-scroll-component'
 
 function SearchBar() {
     const [data, setData] = useState([])
-    const [search, setSearch] = useState('oranges')
+    const [search, setSearch] = useState('Orange')
     const [page, setPage] = useState(1)
     const [hasMore, setHasMore] = useState(true)
 
-    // const APIkey = ''
+    const APIkey = ''
     const fetchUrl = `https://api.unsplash.com/search/photos?client_id=${APIkey}&query=${search}&page=${page}`
 
     const fetchImg = () => {
@@ -70,7 +70,7 @@ function SearchBar() {
                                     alt={data.alt_description}
                                 />
                                 <h2 className="SourceStyle">
-                                    Photo taken by {data.user.name}
+                                    Photo by {data.user.name} | via Unsplash
                                 </h2>
                             </div>
                         ))}

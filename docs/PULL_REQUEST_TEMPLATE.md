@@ -24,5 +24,5 @@
 
 <!---
 Example: 
-Fix|Update for PictoSplash/repository_name/PR-Number/name_of_fix
+Fix|Update for ImageBox/repository_name/PR-Number/name_of_fix
 --->
