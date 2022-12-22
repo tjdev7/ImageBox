@@ -1,6 +1,6 @@
 {
   "name": "imagebox",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Image searcher app created in React. Uses the Unsplash API to render images",
   "main": "index.js",
   "homepage": "https://tjdev7.github.io/ImageBox/",
@@ -10,7 +10,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "cleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
-    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix&& yarn audit",
+    "fullaudits": "yarn install&&yarn upgrade&&npm install&&npm-upgrade&&npm-upgrade&&npm install react-scripts@latest&&npx browserslist@latest --update-db&&npm audit --fix&&yarn audit&&npm audit&&npm outdated",
     "predeploy": "npm run build",
     "deploy": "npm run build&&gh-pages -d build",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",

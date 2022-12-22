@@ -9,7 +9,7 @@ function SearchBar() {
     const [page, setPage] = useState(1)
     const [hasMore, setHasMore] = useState(true)
 
-    const APIkey = ''
+    const APIkey = 'RTpRlWB8r5JvsjlbKHhEpdMG-RXuxL-JK01zgwIcxtA'
     const fetchUrl = `https://api.unsplash.com/search/photos?client_id=${APIkey}&query=${search}&page=${page}`
 
     const fetchImg = () => {
