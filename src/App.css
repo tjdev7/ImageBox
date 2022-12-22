@@ -12,53 +12,9 @@ header {
     /* padding: 1rem 2rem 4.5rem 2rem; */
 }
 
-/* .menuItem {
-    display: block;
-    padding: 0.5rem;
-    font-size: 2.5rem;
-    font-weight: bolder;
-    text-align: right;
-    float: left;
-    font-family: 'Nunito', sans-serif;
-}
-
-.menuItem:hover {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    background-color: #fff;
-    padding: 0.5rem;
-} */
-
 body {
-    /* color: rgb(0, 0, 0);
-    background-color: #d0fcf7; */
     background-color: #fff;
-    /* background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 0.5872724089635855) 0%, rgba(253, 187, 45, 0.27074579831932777) 100%) no-repeat; */
-    /* height: 100%; */
 }
-
-/* .headerStyle {
-    margin-bottom: 5rem;
-    padding: 0rem 0rem 4.2rem 0rem;
-    background-color: #191818;
-} */
-
-/* .mainIcon {
-    width: 2rem;
-    height: 1rem;
-    padding: -1px;
-    margin: -1rem;
-} */
-
-/* img,
-.autogenImg {
-    width: 15rem;
-    height: 10rem;
-    color: #000;
-    border-radius: 5%;
-    margin: 0.1rem;
-} */
 
 .appTitle {
     color: #ffffff;
@@ -91,8 +47,6 @@ body {
 }
 
 .SearchResult {
-    /* display: flex;
-    flex-flow: column; */
     margin: 2rem auto;
     column-count: 3;
 }
@@ -101,10 +55,6 @@ img {
     flex-direction: row;
     border-radius: 5%;
 }
-
-/* .ImgStyle {
-    
-} */
 
 .SourceStyle {
     /* background-color: aquamarine; */
