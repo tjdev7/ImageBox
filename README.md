@@ -4,7 +4,7 @@
 # PictoSplash
 An image search engine platform created in React. Uses the Unsplash API to search for pictures
 
-![App splashpage](./src/img/ImageBox_Splashpage.png)
+![App splashpage](./public/img/ImageBox_Splashpage.png)
 ## How to use:
 
 1. Clone repo into desired directory `git clone https://github.com/tjdev7/ImageBox.git` or `gh repo clone tjdev7/ImageBox`
@@ -13,9 +13,12 @@ An image search engine platform created in React. Uses the Unsplash API to searc
 4. Add your API key to ```const APIkey``` inside the ```/src/components/SearchBar.js``` file
 5. Run `yarn start` in your preferred terminal app to run the app on a local server
 
-Resources used: 
+## Resources used: 
 
 - Unsplash's API for pictures
+- React as the Front End Framework
+- Prettier and ESLint for code formatting
+- Cypress and Lighthouse for testing
 
 ## Testing tools used for app:
 
