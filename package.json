@@ -1,7 +1,7 @@
 {
   "name": "imagebox",
-  "version": "1.3.1",
-  "description": "Image searcher app created in React. Uses the Unsplash API to render images",
+  "version": "1.3.2",
+  "description": "Image searcher app created in React. The React app uses the Unsplash API to display multiple images at the same time and perform search queries inside of it.",
   "main": "index.js",
   "homepage": "https://tjdev7.github.io/ImageBox/",
   "scripts": {
@@ -45,9 +45,11 @@
     "babel-loader": "9.1.0",
     "css-loader": "6.7.3",
     "cypress": "^12.2.0",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react": "^1.1.7",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.31.11",
     "file-loader": "6.2.0",
     "gh-pages": "^4.0.0",
     "html-webpack-plugin": "5.5.0",
