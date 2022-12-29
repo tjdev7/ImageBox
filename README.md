@@ -39,11 +39,11 @@ An image search engine platform created in React. Uses the Unsplash API to searc
 
 ### Running automated tests:
 
-```npm run linterclean``` to run Prettier tests
-```npm run jesttests``` to run Jest tests
-```npm run test``` to run local React testing library tests
-```npm run litereport``` to run local Lighthouse tests
-```npm run fullaudits``` to update local components and review if any packages are outdated
+- ```npm run linterclean``` to run Prettier tests
+- ```npm run jesttests``` to run Jest tests
+- ```npm run test``` to run local React testing library tests
+- ```npm run litereport``` to run local Lighthouse tests
+- ```npm run fullaudits``` to update local components and review if any packages are outdated
 
 ### Completed app tasks:
 
