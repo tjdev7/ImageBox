@@ -54,6 +54,7 @@ body {
 img {
     flex-direction: row;
     border-radius: 5%;
+    border: 0.0001px solid #242424;
 }
 
 .SourceStyle {
@@ -61,6 +62,12 @@ img {
     margin: 1rem 1rem;
     padding: 0rem 1rem;
     font-size: 1rem;
+    text-decoration: none;
+}
+
+.SourceStyle a {
+    text-decoration: none;
+    color: #42a181;
 }
 
 ul,
