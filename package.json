@@ -4,7 +4,6 @@
   "description": "Image searcher app created in React. ImageBox app uses the Unsplash API to display multiple images at the same time and perform search queries inside of it.",
   "main": "index.js",
   "homepage": "https://tjdev7.github.io/ImageBox/",
-  "type": "module",
   "scripts": {
     "webpack": "webpack",
     "start": "react-scripts start",

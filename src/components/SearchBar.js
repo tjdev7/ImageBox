@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import '../App.css'
-import axios from 'axios'
-import InfiniteScroll from 'react-infinite-scroll-component'
+import React, { useEffect, useState } from 'react';
+import '../App.css';
+
+import axios from 'axios';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 function SearchBar() {
     const [data, setData] = useState([])
