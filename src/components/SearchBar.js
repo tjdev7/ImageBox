@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import '../App.css'
-import axios from 'axios'
-import InfiniteScroll from 'react-infinite-scroll-component'
+import React, { useEffect, useState } from 'react';
+import '../App.css';
+
+import axios from 'axios';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 function SearchBar() {
     const [data, setData] = useState([])
@@ -9,7 +10,7 @@ function SearchBar() {
     const [page, setPage] = useState(1)
     const [hasMore, setHasMore] = useState(true)
 
-    const APIkey = ''
+    const APIkey = 'mnAL1dMT6WpK3vOyYFR0Xmz8uZK3Xn6cTjOkqN_Jlnc'
     const fetchUrl = `https://api.unsplash.com/search/photos?client_id=${APIkey}&query=${search}&page=${page}`
 
     const fetchImg = () => {
