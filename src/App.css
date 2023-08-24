@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 .App {
     text-align: center;
@@ -18,12 +19,21 @@ body {
 
 .appTitle {
     color: #ffffff;
-    font-size: 4rem;
+    font-size: 5.7rem;
     margin: 0.7rem;
     font-family: 'Press Start 2P', cursive;
     justify-content: center;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
+}
+
+.AppSubtitle {
+    color: #ffffff;
+    font-size: 1.4rem;
+    justify-content: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Press Start 2P', cursive;
 }
 
 /*

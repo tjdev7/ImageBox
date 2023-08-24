@@ -1,6 +1,6 @@
 {
     "name": "ImageBox",
-    "short_name": "An Image search engine app created in React",
+    "short_name": "An image search engine web app created in React",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
