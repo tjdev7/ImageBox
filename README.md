@@ -1,8 +1,14 @@
 
+<div class="READMEstyling" align="center">
+
+
 ![App logo](./public/img/ImageBox_logo.svg)
 
-# PictoSplash
-An image search engine platform created in React. Uses the Unsplash API to search for pictures.
+</div>
+
+# ImageBox
+
+An image search engine web app created in React. Uses the Unsplash API to search for pictures and React for its Front End framework.
 
 ## App Screenshot
 
@@ -12,7 +18,6 @@ An image search engine platform created in React. Uses the Unsplash API to searc
 - [Resources used](#resources-used)
 - [Testing tools used for the app](#testing-tools-used-for-the-app)
 - [Running automated tests](#running-automated-tests)
-- [Project resources](#project-resources)
 - [Completed tasks](#completed-tasks)
 - [Future app tasks](#future-app-tasks)
 
@@ -45,7 +50,7 @@ An image search engine platform created in React. Uses the Unsplash API to searc
 - ```npm run litereport``` to run local Lighthouse tests
 - ```npm run fullaudits``` to update local components and review if any packages are outdated
 
-### Completed app tasks:
+### Completed tasks:
 
 - [x] Update UI design for app
 - [x] Complete Unsplash picture API intergration 
@@ -53,7 +58,7 @@ An image search engine platform created in React. Uses the Unsplash API to searc
 
 ### Future app tasks:
 
-- [ ] Add a preloader svg to the search engine app
-- [ ] Make all UI elements inside the app act responsively to any device (Desktop, smart phones, tablets)
-- [ ] Add a 404 error / search results not found page 
-- [ ] Increase current app's API request limit per hour from 50 hits to 5,000 hits
+- [ ] Make the app fully responsive on all platforms and devices. App currently supports only desktop view
+- [ ] Add a spinning circle preloader svg to the search engine app while searching for images
+- [ ] Add a 404 error page and a "image not found" search query results page or display element
+- [ ] Increase current app's API request limit per hour from 50 hits to 5,000 hits per hour
