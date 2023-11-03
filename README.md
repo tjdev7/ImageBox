@@ -1,12 +1,19 @@
 
-![App logo](./public/img/ImageBox_logo.svg)
+<div class="READMEstyle" text-aling="center">
 
-# PictoSplash
-An image search engine platform created in React. Uses the Unsplash API to search for pictures.
+    ![App logo](./public/img/ImageBox_logo.svg)
 
-## App Screenshot
+</div>
 
-![App splashpage](./public/img/ImageBox_Splashpage.png)
+# ImageBox
+
+An image search engine web app created in React. Uses the Unsplash API to search for pictures and React for its Front End framework. Also uses TravisCI and CircleCI for CD/CI tests
+
+## App in action / example:
+
+![App splashpage](./public/img/Imagebox_GIF_example.gif)
+
+## Git Repo guide
 
 - [How to use](#how-to-use)
 - [Resources used](#resources-used)
