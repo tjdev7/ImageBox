@@ -1,10 +1,14 @@
 
 
-
+<div class="READMEstyle" text-align="center">
+  
 ![App logo](./public/img/ImageBox_logo.svg)
 
-
 # ImageBox
+
+</div>
+
+
 
 An image search engine web app created in React. Uses the Unsplash API to search for pictures and React for its Front End framework. Also uses TravisCI and CircleCI for CD/CI tests
 
