@@ -1,8 +1,7 @@
 
 
 
-    ![App logo](./public/img/ImageBox_logo.svg)
-
+![App logo](./public/img/ImageBox_logo.svg)
 
 
 # ImageBox
