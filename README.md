@@ -1,9 +1,9 @@
 
-<div class="READMEstyle" text-aling="center">
+
 
     ![App logo](./public/img/ImageBox_logo.svg)
 
-</div>
+
 
 # ImageBox
 
