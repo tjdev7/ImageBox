@@ -4,6 +4,10 @@
   
 ![App logo](./public/img/ImageBox_logo.svg)
 
+</div>
+
+<div class="headerformatter" align="center">
+  
 # ImageBox
 
 </div>
