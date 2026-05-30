@@ -7,9 +7,9 @@
 </div>
 
 <div class="headerformatter" align="center">
-  
-# ImageBox
 
+#  Currently finding a replacemant image API for the one I used in this app. App is dormant until futher notice
+## ImageBox 
 </div>
 
 
