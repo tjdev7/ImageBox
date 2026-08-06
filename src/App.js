@@ -7,7 +7,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <h1 className="appTitle">ImageBox</h1>
-                <p className="AppSubtitle">A simple image search engine web app</p>
+                <p className="AppSubtitle">Search and browse high-quality images</p>
             </header>
             <SearchBar />
         </div>

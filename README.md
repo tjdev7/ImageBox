@@ -8,13 +8,13 @@
 
 <div class="headerformatter" align="center">
 
-#  Currently finding a replacemant image API for the one I used in this app. App is dormant until futher notice
+#  App is dormant until futher notice
 ## ImageBox 
 </div>
 
 
 
-An image search engine web app created in React. Uses the Unsplash API to search for pictures and React for its Front End framework. Also uses TravisCI and CircleCI for CD/CI tests
+An image search engine web app created in React. Uses TravisCI and CircleCI for CD/CI tests
 
 ## App in action / example:
 
